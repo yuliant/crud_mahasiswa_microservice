@@ -1,0 +1,14 @@
+/.runtime/
+/node_modules/
+/test-results/
+/playwright-report/
+**/vendor/
+**/.env
+**/.env.testing
+**/.phpunit.result.cache
+**/.phpunit.cache/
+**/bootstrap/cache/*.php
+**/storage/logs/*
+**/storage/framework/cache/data/*
+**/storage/framework/sessions/*
+**/storage/framework/views/*

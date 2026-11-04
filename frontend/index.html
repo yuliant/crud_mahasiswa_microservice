@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="id">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CRUD Mahasiswa</title>
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-primary" aria-label="Navigasi utama">
+        <div class="container flex-wrap gap-2">
+            <a class="navbar-brand" href="#/mahasiswa">CRUD Mahasiswa</a>
+            <div class="navbar-nav flex-row flex-wrap gap-4">
+                <a class="nav-link" data-nav="prodi" href="#/prodi">Prodi</a>
+                <a class="nav-link" data-nav="mahasiswa" href="#/mahasiswa">Mahasiswa</a>
+                <a class="nav-link" data-docs="prodi" target="_blank" rel="noopener">API Prodi</a>
+                <a class="nav-link" data-docs="mahasiswa" target="_blank" rel="noopener">API Mahasiswa</a>
+            </div>
+        </div>
+    </nav>
+    <main id="app" class="container py-4" tabindex="-1" style="outline: none" aria-live="polite">
+        <p class="text-secondary" role="status">Memuat data…</p>
+    </main>
+    <noscript><div class="container alert alert-warning mt-4">Aktifkan JavaScript untuk menggunakan aplikasi ini.</div></noscript>
+    <script src="./config.js"></script>
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
